@@ -12,18 +12,18 @@ export default function Home() {
 
   return (
     <>
-      {/* {loading ? (
+      {loading ? (
         <InitialLoader onFinish={() => setLoading(false)} />
       ) : (
-        <> */}
-      <Navbar
-        isMenuToggled={isMenuToggled}
-        setIsMenuToggled={setIsMenuToggled}
-      />
-      <Curtains isMenuToggled={isMenuToggled} />
-      <HomePage />
+        <>
+          <Navbar
+            isMenuToggled={isMenuToggled}
+            setIsMenuToggled={setIsMenuToggled}
+          />
+          <Curtains isMenuToggled={isMenuToggled} />
+          <HomePage />
+        </>
+      )}
     </>
-    //   )}
-    // </>
   );
 }
