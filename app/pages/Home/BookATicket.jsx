@@ -121,7 +121,7 @@ export default function BookATicket() {
         </motion.p>
 
         <motion.a
-          href="/book-tickets"
+          href="/"
           className="w-fit flex flex-nowrap flex-row items-center gap-2.5 my-8 mx-0 py-2.5 px-5 text-sm tracking-[2px] uppercase border-solid border-white border rounded-[44px] text-white no-underline transition-all ease-in-out duration-300 hover:bg-[rgba(255, 255, 255, 0.1)] relative"
           custom={3}
           variants={contentVariants}
